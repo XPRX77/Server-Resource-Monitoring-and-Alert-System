@@ -1,0 +1,42 @@
+-----------------------------------------------------------------------------------------
+System Health Check - 05/19/2025 15:26:34
+CPU Usage: 10.1987333435923%
+Ram Usage: 1047.1484375 MB
+Disk Usage: 199.75 GB Used, 274.97 GB Free
+Network: Connected
+-----------------------------------------------------------------------------------------
+System Health Check - 05/19/2025 15:26:37
+CPU Usage: 9.07437839874539%
+Ram Usage: 1151.359375 MB
+Disk Usage: 199.75 GB Used, 274.97 GB Free
+Network: Connected
+-----------------------------------------------------------------------------------------
+System Health Check - 05/19/2025 15:26:39
+CPU Usage: 4.94728205266463%
+Ram Usage: 1142.4296875 MB
+Disk Usage: 199.75 GB Used, 274.97 GB Free
+Network: Connected
+-----------------------------------------------------------------------------------------
+System Health Check - 05/19/2025 15:26:41
+CPU Usage: 9.52874979062479%
+Ram Usage: 1140.109375 MB
+Disk Usage: 199.75 GB Used, 274.97 GB Free
+Network: Connected
+-----------------------------------------------------------------------------------------
+System Health Check - 05/19/2025 15:26:44
+CPU Usage: 15.3334576209998%
+Ram Usage: 1152.17578125 MB
+Disk Usage: 199.75 GB Used, 274.97 GB Free
+Network: Connected
+-----------------------------------------------------------------------------------------
+System Health Check - 05/19/2025 15:26:59
+CPU Usage: 8.61725534270603%
+Ram Usage: 1194.5859375 MB
+Disk Usage: 199.75 GB Used, 274.97 GB Free
+Network: Connected
+-----------------------------------------------------------------------------------------
+System Health Check - 05/19/2025 15:27:09
+CPU Usage: 6.12761503226699%
+Ram Usage: 1194.21875 MB
+Disk Usage: 199.75 GB Used, 274.97 GB Free
+Network: Connected
