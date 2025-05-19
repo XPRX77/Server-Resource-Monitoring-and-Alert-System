@@ -16,10 +16,8 @@ Features
 ⏳ Scheduled Execution: Runs automatically every 15 minutes via Windows Task Scheduler.
 
 Installation & Setup
-Clone the Repository:
+Clone the Repository
 
-powershell
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 Modify Configuration:
 
 Update threshold values for CPU alerts.
@@ -32,7 +30,7 @@ Schedule the Script:
 
 Open Task Scheduler on Windows.
 
-Create a new task to run the script every 15 minutes.
+Create a new task to run the script every 15 minutes.    
 
 Set appropriate permissions.
 
