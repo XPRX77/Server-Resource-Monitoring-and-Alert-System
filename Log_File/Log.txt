@@ -58,3 +58,28 @@ CPU Usage: 30.9047273513584%
 Ram Usage: 705.48046875 MB
 Disk Usage: 201.28 GB Used, 273.44 GB Free
 Network: Connected
+-----------------------------------------------------------------------------------------
+System Health Check - 05/19/2025 22:36:24
+CPU Usage: 22.0709256396874%
+Ram Usage: 902.80859375 MB
+Disk Usage: 201.61 GB Used, 273.11 GB Free
+Network: Connected
+-----------------------------------------------------------------------------------------
+System Health Check - 05/19/2025 22:38:23
+CPU Usage: 18.5849641235417%
+Ram Usage: 930.16015625 MB
+Disk Usage: 201.61 GB Used, 273.11 GB Free
+Network: Connected
+-----------------------------------------------------------------------------------------
+System Health Check - 05/19/2025 22:38:41
+CPU Usage: 19.6905518214071%
+Ram Usage: 918.859375 MB
+Disk Usage: 201.61 GB Used, 273.11 GB Free
+Network: Connected
+2025-38-19 22:38:41 Failed to send alert email. Error details: The specified string is not in the form required for an e-mail address.
+-----------------------------------------------------------------------------------------
+System Health Check - 05/19/2025 22:39:40
+CPU Usage: 33.836049694826%
+Ram Usage: 1040.6171875 MB
+Disk Usage: 201.59 GB Used, 273.12 GB Free
+Network: Connected
