@@ -1,5 +1,5 @@
 ﻿#$timestamp = Get-Date -Format 'yyyy-mm-dd HH:mm:ss'
-$logfile = "C:\Users\Pranav Pramod\Desktop\IDK\Project\Automatic System Health Checkup\Log.txt"
+$logfile = "C:\Users\Pranav Pramod\Desktop\IDK\Project\Automatic System Health Checkup\Log_File\Log.txt"
 
 # Import the credential securely
 $credential = Import-Clixml -Path "C:\Users\Pranav Pramod\Desktop\IDK\Project\Automatic System Health Checkup\Secure\creds.xml"
