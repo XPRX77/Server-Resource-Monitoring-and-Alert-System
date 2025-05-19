@@ -49,8 +49,6 @@ Schedule the Script:
     
 ## Usage
 
-Clone the project
-
 ```bash
   .\Automatic System Health Checkup.ps1
 ```
