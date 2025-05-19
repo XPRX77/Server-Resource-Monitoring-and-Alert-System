@@ -1,4 +1,4 @@
-﻿#$timestamp = Get-Date -Format 'yyyy-mm-dd HH:mm:ss'
+﻿$timestamp = Get-Date -Format 'yyyy-mm-dd HH:mm:ss'
 $logfile = "C:\Users\Pranav Pramod\Desktop\IDK\Project\Automatic System Health Checkup\Log_File\Log.txt"
 
 # Import the credential securely
@@ -38,14 +38,21 @@ $smtpPort = 587
 $from = "alert@test-3m5jgro922ogdpyo.mlsender.net"
 $to = "pranavkr148@protonmail.com"
 
-$threshold = 80
+$threshold = 50
 
-if ($cpu -gt $threshold) {
-    $subject = "ALERT: High CPU Usage - $cpu%"
-    $body = "Warning! CPU usage is at $cpu% which is above the threshold of $threshold%."
+try{
+    if ($cpu -gt $threshold) {
+        $subject = "ALERT: High CPU Usage - $cpu%"
+        $body = "Warning! CPU usage is at $cpu% which is above the threshold of $threshold%."
 
-    Send-MailMessage -From $from -To $to -Subject $subject -Body $body `
-        -SmtpServer $smtpServer -Port $smtpPort -UseSsl -Credential $credential
+        Send-MailMessage -From $from -To $to -Subject $subject -Body $body `
+            -SmtpServer $smtpServer -Port $smtpPort -UseSsl -Credential $credential
 
-    Write-Output "Mail-sent"
+        Write-Output "Mail-sent"
+        Add-Content -Path $logfile -Value "Mail-sent"
+    }
+}
+catch {
+    Write-Error "Failed to send alert email. Error details: $_"
+    Add-Content -Path $logfile -Value "$timestamp Failed to send alert email. Error details: $_"
 }
