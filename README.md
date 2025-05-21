@@ -19,7 +19,7 @@ This PowerShell script monitors system resource usage, including CPU, memory, RA
 
 ## Demo
 
-Insert gif or link to demo
+Demo file which is showing the working
 
 ![Demo](Asset/Demo.gif)
 ## Installation
