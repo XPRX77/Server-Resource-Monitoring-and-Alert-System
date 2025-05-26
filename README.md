@@ -1,5 +1,5 @@
 
-# Automatic System Health Checkup
+# Server Resource Monitoring and Alert System
 
 This PowerShell script monitors system resource usage, including CPU, memory, RAM, and network connectivity. It is designed to run automatically every 15 minutes via Task Scheduler, logging each execution for tracking purposes. Additionally, the script includes an email alert mechanism that notifies users when CPU usage exceeds a defined threshold.
 
